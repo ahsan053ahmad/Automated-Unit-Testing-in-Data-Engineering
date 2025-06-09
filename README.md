@@ -4,13 +4,13 @@ This repository contains the submission for Lab 6 of the Data Engineering course
 
 ---
 
-### 🧩 Business Problem
+### Business Problem
 
 In modern data pipelines, code reliability and repeatability are crucial. ETL processes often break due to bad inputs or schema drift, making it essential to introduce testing frameworks that validate code under different scenarios. This lab explored how to use unit testing frameworks in Python to ensure that the components of a data pipeline behave as expected under various input conditions.
 
 ---
 
-### 🎯 Project Objectives
+### Project Objectives
 
 - Write Python functions to clean and transform data
 - Build test cases for edge conditions, valid inputs, and failure scenarios
@@ -19,7 +19,7 @@ In modern data pipelines, code reliability and repeatability are crucial. ETL pr
 
 ---
 
-### 🛠️ Solution Approach
+### Solution Approach
 
 1. **Function Development**
    - Developed utility functions for:
@@ -40,7 +40,7 @@ In modern data pipelines, code reliability and repeatability are crucial. ETL pr
 
 ---
 
-### 💡 Business Value
+### Business Value
 
 This lab demonstrates how automated testing enhances:
 
@@ -50,7 +50,7 @@ This lab demonstrates how automated testing enhances:
 
 ---
 
-### 🚧 Challenges Encountered
+### Challenges Encountered
 
 - Testing functions that modify DataFrames in-place
 - Dealing with Pandas warning messages in test assertions
